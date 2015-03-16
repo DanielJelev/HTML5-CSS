@@ -1,0 +1,67 @@
+table,td{
+    border: 1px solid black;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 14px;
+}
+#container{
+    background-color: #0d8643;
+    padding: 3px;
+    width: 660px;
+}
+table{
+
+    background-color: white;
+    border-radius: 10px;
+    margin:10px;
+}
+td{
+    padding: 5px;
+
+}
+tr:first-child {
+    background-color: #ffcb0c;
+    text-align: center;
+    font-weight: bold;
+}
+tr{
+    height: 40px;
+}
+.Bet{
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 13px;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+
+}
+.Bet>span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+.green{
+    background-color: rgba(27, 198, 0, 0.92);
+    color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#topLeft{
+    border-top-left-radius: 10px;
+}
+#topRight{
+    border-top-right-radius: 10px;
+}
+#bottomLeft{
+    border-bottom-left-radius: 10px;
+}
+#bottomRight {
+    border-bottom-right-radius: 10px;
+}

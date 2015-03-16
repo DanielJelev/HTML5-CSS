@@ -1,0 +1,61 @@
+body{
+    background-color: pink;
+}
+article{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+header>p{
+    position: relative;
+    left: 40px;
+}
+figure>div{
+    background-color: #000000;
+    width: 320px;
+    height: 180px;
+}
+figure>div>audio{
+    margin-top: 50px;
+    position: relative;
+    left: 10px;
+}
+#main{
+    width: 1250px;
+    text-align: center;
+}
+figure>audio{
+    display: inline-block;
+    width: 320px;
+}
+figure>img{
+    width: 250px;
+    height: 200px;
+}
+footer>meter{
+    position: relative;
+    left: 40px;
+    width: 200px;
+    height: 25px;
+}
+figure>video{
+    width: 500px;
+    height: 280px;
+}
+#first{
+    width: 350px;
+    height: 360px;
+}
+#second{
+    width: 400px;
+    height: 360px;
+}
+#third {
+    width: 500px;
+    height: 360px;
+
+}
+figcaption{
+    margin-top: 10px;
+    width: 250px;
+}

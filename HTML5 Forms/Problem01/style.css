@@ -1,0 +1,88 @@
+#container{
+    width: 620px;
+    background-color: #e2e2e2;
+ }
+#new{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    border:0px solid;
+}
+h1{
+    color: #0c075f;
+}
+header>p{
+    color: gray;
+}
+input{
+    margin-top: 10px;
+    height: 20px;
+}
+#have{
+    width: 250px;
+    height: 220px;
+    display: inline-block;
+    border:0px solid;
+    background-color: #234465;
+    position: relative;
+    bottom: 40px;
+    right: 50px;
+}
+#have>h3{
+    font-size: 15px;
+    color: #ffffff;
+}
+#checkbox{
+    width: 20px;
+    display: inline-block;
+}
+input[type=checkbox]{
+    width: 20px;
+}
+#login{
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    border: 2px solid orange;
+    background: none;
+    color : transparent;
+    position: relative;
+    bottom: 25px;
+}
+input{
+    width: 250px;
+}
+#register{
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 100px;
+    border: 2px solid #0c075f;
+    background: none;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    width: 70px;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0px 20px;
+    background:none;
+    border:0 none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#first{
+    font-size: 15px;
+    color: gray;
+}
+#first>span{
+    font-size: 15px;
+    color: #0c075f;
+}
+#checkbox>span{
+    width: 200px;
+}
+#login{
+    margin-left: 125px;
+    width: 100px;
+}

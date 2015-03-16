@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <link rel="stylesheet" href="style.css"/>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+    <div id="container">
+        <form method="">
+            <fieldset>
+                <header>
+                    <h1>FLIGHT ORDER</h1>
+                </header>
+                <div id="goFrom">
+                    <p>From</p>
+                    <select name="from" id="from">
+                        <option selected disabled>enter a city</option>
+                        <option value="sofia">Sofia</option>
+                        <option value="plovdiv">Plovdiv</option>
+                        <option value="varna">Varna</option>
+                        <option value="burgas">Burgas</option>
+                    </select>
+                </div>
+                <div id="toGo">
+                    <p>To</p>
+                    <select name="from" id="to">
+                        <option selected disabled>enter a city</option>
+                        <option value="sofia">Sofia</option>
+                        <option value="plovdiv">Plovdiv</option>
+                        <option value="varna">Varna</option>
+                        <option value="burgas">Burgas</option>
+                        <input type="checkbox" name="check" value="prefer"/><span>Prefer directs</span>
+                    </select>
+                </div>
+                <p>
+                    Departure Date
+                </p>
+                <div id="date">
+                    <input type="date" name="date"/>
+                    <input type="date" name="return"/>
+                </div>
+                <div id="time">
+                    <input type="time" name="start"/>
+                    <input type="time" name="end"/>
+                </div>
+                <div>
+                    <select name="numbers" id="numbers">
+                        <option value=""></option>
+                    </select>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    </body>
+</html>
